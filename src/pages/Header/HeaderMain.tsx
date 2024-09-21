@@ -7,10 +7,10 @@ const Navigation: React.FC = () => {
         <nav className='header-menu'>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">회사소개</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">공지사항</Link>
                 </li>
             </ul>
         </nav>

@@ -1,0 +1,11 @@
+.profile-container {
+    height: 30vh;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #f9fafb;
+    text-align: center;
+    position: relative;
+    margin-top: 20%;
+}
+
