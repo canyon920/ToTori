@@ -74,3 +74,8 @@ ul > li > a:hover {
     border: none;
     border-radius: 5px;
 }
+
+.bi-chevron-compact-right {
+    font-size: 3rem;
+
+}

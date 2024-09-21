@@ -27,7 +27,7 @@ const Navigation: React.FC = () => {
             <div className="home-container">
                 {/*<img src="/assets/images/see.jpg" alt="바다" />*/}
                 <div className="home-content">
-                    Frotnend의 모든것 <br/>
+                    Frontend의 모든것 <br/>
                     저와 재미있게
                     <div className="move-icon">
                         <button className="button-custom"> App Store</button>
@@ -47,8 +47,10 @@ const Navigation: React.FC = () => {
                     }}
                     onClick={handleClick}
                 >
-                    <div style={{display: 'flex', alignItems: 'center'}}>
-                        <span style={{visibility: isBlinking ? 'visible' : 'hidden'}}>↓</span>
+                    <div style={{display: 'flex', alignItems: 'center', transform: 'rotate(90deg)'}}>
+                        <span style={{visibility: isBlinking ? 'visible' : 'hidden'}}>
+                          <i className="bi bi-chevron-compact-right"></i>
+                        </span>
                     </div>
                 </div>
 
